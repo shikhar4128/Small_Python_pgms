@@ -1,3 +1,8 @@
+# The Caesar Cipher is a famous and very old cryptography technique. In a simple way, it reorganize all the letter from a sentence based
+# on a shifted alphabet.
+# For example, if we choose a right shift of 4, the letter A is replaced by E, B is replaced by F, and so on. When the end of alphabet is reached,
+# it returns back to the beginning.
+
 def getMode():
     while True:
         print("Please select the mode encrypt (e) or decrypt (d)")
