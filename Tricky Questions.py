@@ -1,3 +1,12 @@
+# The 54 questions in this program have been specifically crafted so that their answers are simple,
+# obvious, and misleading. Finding the true answer will require some cleverness.
+
+# The QUESTIONS variable holds a list of dictionaries. Each dictionary represents a single trick question and has the keys
+# 'question', 'answer', and 'accept'. The values for 'question' and 'answer' are strings the program displays when it poses the
+# question to the player and reveals the answer, respectively. The value for the 'accept' key is a list of strings. If the player
+# enters a response that contains any of these strings, it’s accepted as correct. This allows the player to enter free-form text
+# as their reply. The program is reasonably accurate in detecting when they’ve provided the correct answer
+
 import random,sys
 
 QUESTIONS = [
