@@ -10,6 +10,6 @@ while True:
         continue
     elif resp in 'no n':
         print('Ok fine, I will not tell.Thank you.Have a nice day!')
-        sys.exit()
+        sys.exit() #can also use break here
     else:
         print(f'"{resp}" is not a valid yes/no response')
