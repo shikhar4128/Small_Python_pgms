@@ -5,7 +5,7 @@ height=int(input("Enter your height in centimeters: "))
 weight=int(input("Enter your Weight in Kg: " ))
 
 height=height/100
-BMI=weight/(height*height)
+BMI=round(weight/(height*height),2)
 print(f'your Body Mass Index is: {BMI}')
 
 if BMI > 0:
