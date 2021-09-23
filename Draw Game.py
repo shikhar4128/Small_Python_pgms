@@ -20,7 +20,6 @@ while True:
     input()
     timeElapsed=time.time() - drawTime
 
-
     if timeElapsed < 0.01:
         print('You drew before "DRAW" appeared! You lose.')
     elif timeElapsed > 0.5:
